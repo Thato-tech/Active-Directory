@@ -19,10 +19,6 @@ Active Directory’s objective is to centrally manage and secure users, computer
 - 
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+1.I built a diagram using draw.io to help me understand how data might flow and how pieces are strung together
+<img width="538" height="725" alt="Active Directory" src="https://github.com/user-attachments/assets/f3b1ded2-6821-4a32-92a7-4caada84bc19" />
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
