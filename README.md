@@ -20,5 +20,7 @@ Active Directory’s objective is to centrally manage and secure users, computer
 
 ## Steps
 1.I built a diagram using draw.io to help me understand how data might flow and how pieces are strung together
-<img width="300" height="400" alt="Active Directory" src="https://github.com/user-attachments/assets/f3b1ded2-6821-4a32-92a7-4caada84bc19" />
+<img width="300" height="400" alt="Screenshot_3-5-2026_185318_app diagrams net" src="https://github.com/user-attachments/assets/96f24f9e-a886-44d9-a4f7-80d765830178" />
+
+2.
 
