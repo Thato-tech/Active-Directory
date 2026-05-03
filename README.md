@@ -31,6 +31,19 @@ Active Directory’s objective is to centrally manage and secure users, computer
 3.I created a firewall group and added my three machines to the firewall group so that thry will be protected from invaders.
 <img width="400" height="450" alt="creating firewall group" src="https://github.com/user-attachments/assets/03185317-67b6-408a-95a6-c68cea0dc4b0" /><img width="200" height="300" alt="adding firewalls to my vms" src="https://github.com/user-attachments/assets/bb49456a-e42f-4ffe-bca4-ba9906445190" /><img width="200" height="300" alt="Screenshot_3-5-2026_19418_console vultr com" src="https://github.com/user-attachments/assets/3899232a-9405-4512-ba60-9a4236dfce59" /><img width="200" height="300" alt="Screenshot_3-5-2026_194142_console vultr com" src="https://github.com/user-attachments/assets/644c2097-8bff-4534-854f-3d65e9cba459" />
 
+4.I also did an extra configuration by creating and adding my virtual machines to the VPC Network
+<img width="300" height="400" alt="vpc" src="https://github.com/user-attachments/assets/d3e4a061-3982-46d8-a2e5-66511f9a2b25" />
+
+5.I checked my connectivity because all my virtual machines should be able to communicate with one another. Thre was no connectivity and in my case that is a huge problem.
+ <img width="300" height="400" alt="something wrong" src="https://github.com/user-attachments/assets/f0ed88aa-aa23-4218-b8e6-80b408011183" />
+
+ 6.I found my problem in the second ethernet the ip address there is 169 address not 10.x.x address and i fixed that by going to the network settings and changing the adapter options of ethernet 0.2's ipv4 properties by adding my ip and subnet address
+<img width="1280" height="960" alt="foundissue" src="https://github.com/user-attachments/assets/8b6e77c1-4ae0-4fe0-bab3-02cc27546aa9" /><img width="200" height="300" alt="troubleshoot" src="https://github.com/user-attachments/assets/22763caf-2c4c-4f8a-9dfd-80758f53bce3" />
+
+
+7.My problem was therefore fixed because there was connectivity between my virtual machines
+<img width="200" height="300" alt="problemfixed" src="https://github.com/user-attachments/assets/1fe7142d-3b87-477f-b076-420590c22b4c" />
+
 
 
 
